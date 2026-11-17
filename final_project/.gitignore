@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Environment and local credentials
+.env
+.env.*
+!.env.example
+cookies.txt
+
+# Logs and operating-system files
+*.log
+.DS_Store
