@@ -1,0 +1,5 @@
+COMMAND
+curl -s https://api.github.com/repos/Levy008/expressBookReviews | jq '.parent.full_name'
+
+OUTPUT
+"ibm-developer-skills-network/expressBookReviews"
