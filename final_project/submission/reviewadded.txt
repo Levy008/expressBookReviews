@@ -1,0 +1,5 @@
+COMMAND
+curl.exe -s -b cookies.txt -X PUT "http://localhost:5000/customer/auth/review/1?review=An%20excellent%20and%20powerful%20novel"
+
+OUTPUT
+{"message":"Review successfully added.","reviews":{"student":"An excellent and powerful novel"}}
